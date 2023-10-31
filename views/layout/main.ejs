@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andelson Lopez - <%- title %></title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <%- include('../extras/fonts.ejs') %>
+    <link rel="stylesheet" href="css/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+  </head>
+  <body class="bg-bg_light_body dark:bg-bg_dark dark:text-white">
+
+    <%- include('../partials/navbar.ejs') %> 
+    
+    <%- body %> 
+
+    <%-include('../partials/footer.ejs') %>
+
+    <script src="js/darkMode.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>
+    <script src="js/getRoute.js"></script>
+    <script src="js/changeView.js"></script>
+  </body>
+</html>

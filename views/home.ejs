@@ -1,0 +1,37 @@
+<%- include('./projects.ejs') %>
+
+<div class="bg-bg_light_body dark:bg-bg_dark dark:text-white max-w-full sm:max-w-3xl mx-auto animate-fade animate-ease-in" id="homeView">
+    <div class="max-w-full sm:max-w-body mx-auto p-4 sm:p-0">
+        
+        <div>
+            <img src="images/illustrations/dark_cat.png" class="animate-fade dark:block hidden mx-auto w-72">
+            <img src="images/illustrations/light_cat.png" class="animate-fade dark:hidden block mx-auto w-72">
+            <div class="dark:bg-bg_message dark:text-white bg-bg_light_navbar text-center rounded-md p-3 m-2">
+                A software developer base in Dominican Republic
+            </div>
+        </div>
+
+        <div class="flex justify-center items-center flex-col sm:align-top sm:justify-between sm:flex-row mt-10">
+            <div class="flex flex-col text-center sm:text-start">
+                <h3 class="text-3xl font-semibold">Andelson Lopez Ysabel</h3>
+                <span class="dark:text-slate-300 text-gray-800">Software developer</span>
+            </div>
+            <img src="images/illustrations/pfp.jpeg" alt="" class="rounded-full w-28 mt-5 sm:mt-0">
+        </div>
+
+        <h3 class="text-bold underline underline-offset-8 mb-5 decoration-4 text-gray-800 dark:text-gray-400">ABOUT ME</h3>
+        <p class="text-lg"><span class="ml-5 text-blue-600 dark:text-blue-400">Passionate software developer</span>, always interested in finding new things to learn, currently studying and improving to more in programming both as backend and fronted (as far as possible of course). Always trying to create new projects with cutting edge technologies in the industry. It also highlights the taste for pizza and video games.</p>
+
+        <!-- <div class="mx-auto text-center p-10">
+            <a href="#" class="dark:bg-bg_message bg-bg_light_navbar p-3 rounded-xl">My portafolio <span><i class="ri-arrow-right-s-line"></i></span></a>
+        </div> -->
+
+        <%- include('./Tech.ejs') %>
+
+        <%- include('./iLove.ejs') %>
+
+        <%- include('./onTheWeb.ejs') %>
+
+        <%- include('./projectsPreview.ejs') %>
+    </div>
+</div>
