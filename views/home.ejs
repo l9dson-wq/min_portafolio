@@ -3,7 +3,7 @@
 <div class="bg-bg_light_body dark:bg-bg_dark dark:text-white max-w-full sm:max-w-3xl mx-auto animate-fade animate-ease-in" id="homeView">
     <div class="max-w-full sm:max-w-body mx-auto p-4 sm:p-0">
         
-        <div  id="aboutMe">
+        <div>
             <img src="images/illustrations/dark_cat.png" class="animate-fade dark:block hidden mx-auto w-72">
             <img src="images/illustrations/light_cat.png" class="animate-fade dark:hidden block mx-auto w-72">
             <div class="dark:bg-bg_message dark:text-white bg-bg_light_navbar text-center rounded-md p-3 m-2">
@@ -13,7 +13,7 @@
 
         <div class="flex justify-center items-center flex-col sm:align-top sm:justify-between sm:flex-row mt-10 sm:items-start">
             <div class="flex flex-col text-center sm:text-start">
-                <h3 class="text-3xl font-semibold">Andelson Lopez Ysabel</h3>
+                <h3 class="text-3xl font-semibold" id="aboutMe">Andelson Lopez Ysabel</h3>
                 <span class="dark:text-slate-300 text-gray-800">Software developer</span>
             </div>
             <img src="images/illustrations/pfp.jpeg" alt="" class="rounded-full w-28 mt-5 sm:mt-0">
@@ -31,8 +31,12 @@
         <br>
         <%- include('./tech.ejs') %>
 
+        <br>
+        <br>
         <%- include('./iLove.ejs') %>
 
+        <br>
+        <br>
         <%- include('./onTheWeb.ejs') %>
 
         <span id="projectsPreview"></span>
@@ -40,6 +44,8 @@
         <br>
         <%- include('./projectsPreview.ejs') %>
 
+        <br>
+        <br>
         <%- include('./getInTouch.ejs') %>
     </div>
 </div>
